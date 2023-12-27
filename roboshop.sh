@@ -9,7 +9,7 @@ DOMAIN_NAME="projoy.store"
 
 for i in "${INSTANCES[@]}"
 do
-    if [ $i == "monodb" ] || [ $i == "mysql" ] || [ $i == "shipping" ]
+    if [ $i == "mongodb" ] || [ $i == "mysql" ] || [ $i == "shipping" ]
     then
         INSTANCES_TYPE="t3.small"
     else
